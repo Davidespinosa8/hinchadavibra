@@ -8,8 +8,8 @@ const imageMapping: { [key: string]: string } = {
   "Elena.png": "/hero/Elena.png",
   "Guada.png": "/hero/Guada.png",
   "Oli.png": "/hero/Oli.png",
-  "Emi.png": "/ero/Emi.png",
-  "Laia.png": "/ero/Laia.png",
+  "Emi.png": "/hero/Emi.png",
+  "Laia.png": "/hero/Laia.png",
   "Juana.png": "/hero/Juana.png",
   "Isa.png": "/hero/Isa.png",
   "Anna.png": "/hero/Ana.png",
@@ -20,7 +20,7 @@ const imageNames: string[] = Object.keys(imageMapping);
 /* eslint-disable */
 
 export function Hero() {
-  const [mainImage, setMainImage] = useState("/Hero/bailarina.png");
+  const [mainImage, setMainImage] = useState("/hero/bailarina.png");
   const [mainImageName, setMainImageName] = useState("Bailarina");
 
   const changeMainImage = (imageName: string, name: string) => {
@@ -39,7 +39,7 @@ export function Hero() {
           {imageNames.map((imageName, index) => (
             <div className="box-uno pb-10" key={index} onClick={() => changeMainImage(imageName, imageName.replace(".png", ""))}>
               <div className="box-mask"></div>
-              <img src={`/Hero/Foto-perfil/${imageName}`} alt={`bailarina-${index}`} className="bailarina" />
+              <img src={`/hero/Foto-perfil/${imageName}`} alt={`bailarina-${index}`} className="bailarina" />
               {/* <div className="image-name-diagonal text-center font-handlee text-l font-bold text-sky-400">{imageName.replace(".png", "")}</div> */}
             </div>
           ))}

@@ -20,7 +20,7 @@ export function Footer() {
             </p>
           </div>
           <div className="mt-4 text-center text-gray-400">
-            &copy; {new Date().getFullYear()} Vibra. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} HinchadaVibra. Todos los derechos reservados.
           </div>
         </div>
       </footer>

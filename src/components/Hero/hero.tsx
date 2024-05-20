@@ -4,15 +4,15 @@ import React, { useState } from "react";
 import "./style.css";
 
 const imageMapping: { [key: string]: string } = {
-  "Luli.png": "/Hero/Luli.png",
-  "Elena.png": "/Hero/Elena.png",
-  "Guada.png": "/Hero/Guada.png",
-  "Oli.png": "/Hero/Oli.png",
-  "Emi.png": "/Hero/Emi.png",
-  "Laia.png": "/Hero/Laia.png",
-  "Juana.png": "/Hero/Juana.png",
-  "Isa.png": "/Hero/Isa.png",
-  "Anna.png": "/Hero/Ana.png",
+  "Luli.png": "/hero/Luli.png",
+  "Elena.png": "/hero/Elena.png",
+  "Guada.png": "/hero/Guada.png",
+  "Oli.png": "/hero/Oli.png",
+  "Emi.png": "/ero/Emi.png",
+  "Laia.png": "/ero/Laia.png",
+  "Juana.png": "/hero/Juana.png",
+  "Isa.png": "/hero/Isa.png",
+  "Anna.png": "/hero/Ana.png",
 };
 
 const imageNames: string[] = Object.keys(imageMapping);

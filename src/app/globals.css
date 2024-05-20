@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
   font-family: 'roboto-condensed';
   src: url(/fonts/RobotoCondensed.ttf);
@@ -21,6 +22,16 @@
 @font-face {
   font-family: 'AliviaRegular';
   src: url(/fonts/AliviaRegular.ttf)
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url(/fonts/Exo-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url(/fonts/Mulish.ttf);
 }
 
 :root{

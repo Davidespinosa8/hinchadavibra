@@ -31,7 +31,7 @@ export function Hero() {
   return (
     <div className="section pb-10">
       <div className="main-image-container">
-        <img src={mainImage} alt="Imagen principal" className="main-image pb-3" />
+        <img src={mainImage} alt="Imagen principal" className="main-image pb-3 loading='lazy'" />
       </div>
       <div className="main-image-name text-center font-AliviaRegular text-3xl text-sky-400 font-bold">{mainImageName}</div>
       <div className="container">
@@ -39,8 +39,7 @@ export function Hero() {
           {imageNames.map((imageName, index) => (
             <div className="box-uno pb-10" key={index} onClick={() => changeMainImage(imageName, imageName.replace(".png", ""))}>
               <div className="box-mask"></div>
-              <img src={`/hero/Foto-perfil/${imageName}`} alt={`bailarina-${index}`} className="bailarina" />
-              {/* <div className="image-name-diagonal text-center font-handlee text-l font-bold text-sky-400">{imageName.replace(".png", "")}</div> */}
+              <img src={`/hero/Foto-perfil/${imageName}`} alt={`bailarina-${index}`} className="bailarina" loading='lazy'/>
             </div>
           ))}
         </div>

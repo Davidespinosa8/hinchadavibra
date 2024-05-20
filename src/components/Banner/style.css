@@ -133,3 +133,10 @@ body {
   height: 100%;
   object-fit: contain;
 }
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .wrapper {
+    height: 40vh; /* Ajusta la altura para pantallas pequeñas */
+  }
+}

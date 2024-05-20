@@ -59,4 +59,3 @@ export function Navbar() {
   );
 }
 
-export default dynamic(() => Promise.resolve(Navbar), { ssr: false });

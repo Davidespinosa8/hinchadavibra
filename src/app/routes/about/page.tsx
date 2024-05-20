@@ -4,6 +4,7 @@ import { Banner } from "@/components/Banner/banner";
 import Buttons from "@/components/Buttons/buttons";
 import { Hero } from "@/components/Hero/hero";
 import { TextHero } from "@/components/TextHero/texthero";
+import { Eventos } from "@/components/Eventos/eventos"
 
 export default function About() {
   return (
@@ -16,8 +17,13 @@ export default function About() {
           <TextHero />
         </div>
       </div>
-      <Buttons />
+      <div className="pt-10">
+        <Buttons />
+      </div>
       <Banner />
+      <div className="py-10 pb-20">
+        <Eventos />
+      </div>
     </div>
   )
 }

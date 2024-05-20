@@ -34,7 +34,7 @@ export function Banner(){
 
   return (
     <div>
-      <p className='text-center text-4xl pt-20 font-mono text-slate-200'>Nosotras en acción</p>
+      <p className='text-center text-4xl pt-20 font-Mulish text-sky-500 font-bold'>Nosotras en acción</p>
       <div className={`container mx-auto px-4 sm:px-6 lg:px-8 ${isMobile ? 'mobile' : ''}`}>
         <div className="wrapper overflow-hidden">
           <div className="items flex flex-wrap justify-center">
@@ -49,7 +49,6 @@ export function Banner(){
             <div className="item w-full " tabIndex={0} style={{backgroundImage: "url(/Vibra/vibra9.jpg)"}} onClick={() => openModal("/Vibra/vibra9.jpg")}></div>
             <div className="item w-full " tabIndex={0} style={{backgroundImage: "url(/Vibra/vibra10.jpg)"}} onClick={() => openModal("/Vibra/vibra10.jpg")}></div>
             <div className="item w-full " tabIndex={0} style={{backgroundImage: "url(/Vibra/vibra11.jpg)"}} onClick={() => openModal("/Vibra/vibra11.jpg")}></div>
-            {/* Aquí agregar el resto de las imágenes con sus respectivos onClick */}
           </div>
         </div>
         {modalImage && (

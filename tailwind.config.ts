@@ -17,7 +17,9 @@ const config: Config = {
         'roboto-condensed': ['Roboto Condensed', 'sans-serif'],
         'abeezee':['abeze'],
         'handlee':['handlee'],
-        'AliviaRegular':['AliviaRegular'],
+        'AliviaRegular': ['AliviaRegular'],
+        'Exo': ['Exo'],
+        'Mulish':['Mulish']
       }
     },
   },

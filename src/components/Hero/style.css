@@ -1,0 +1,66 @@
+.section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: wrap; /* Cambiamos nowrap por wrap para que los elementos se envuelvan en múltiples líneas */
+  justify-content: center; /* Centramos los elementos horizontalmente */
+}
+
+.box-uno {
+  flex-basis: calc(20% - 1rem); /* Establecemos el ancho de cada selector de personaje */
+  position: relative;
+  height: auto; /* Cambiamos el alto a automático para que se ajuste al contenido */
+  margin: 0.5rem; /* Ajustamos el margen entre los selectores */
+}
+
+.box-mask {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  opacity: 0.25;
+  background: linear-gradient(#fff 0%, #0c080880 30%, #0000 95%);
+  transition: opacity 0.3s;
+}
+
+.box-uno:hover .box-mask {
+  opacity: 0;
+}
+
+.bailarina {
+  width: 100%; /* Cambiamos el ancho a 100% para que se ajuste al contenedor */
+  height: auto;
+  object-fit: cover;
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  position: relative;
+  z-index: 1;
+}
+
+.box-uno:hover .bailarina {
+  filter: brightness(100%);
+}
+
+.bailarina:hover {
+  cursor: pointer;
+}
+
+.main-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos para la imagen principal */
+.main-image {
+  width: 350px; /* Cambiamos el ancho a 90% para que se ajuste al contenedor */
+  max-width: 400px; /* Limitamos el ancho máximo de la imagen principal */
+}
+

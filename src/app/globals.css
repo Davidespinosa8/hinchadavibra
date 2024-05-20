@@ -1,33 +1,61 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'roboto-condensed';
+  src: url(/fonts/RobotoCondensed.ttf);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@font-face {
+  font-family: 'abeze';
+  src: url(/fonts/Abeezee-Regular.ott);
+}
+
+@font-face {
+  font-family: 'handlee';
+  src: url(/fonts/Handlee-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'AliviaRegular';
+  src: url(/fonts/AliviaRegular.ttf)
+}
+
+:root{
+  
+  --dark-color: #1e2220;
+}
+
+
+body{
+  background: var(--dark-color);
+  background-blend-mode: overlay;
+}
+
+
+/* iconos de contacto */
+.icon-bg {
+  background: linear-gradient(135deg, #6a0572, #4b0082, #00ffff, #4b0082, #6a0572);
+  background-size: 400% 400%;
+  animation: gradientAnimation 5s ease infinite;;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.icon-bg:hover{
+  opacity: 50%;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+

@@ -1,0 +1,10 @@
+.interactive {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 50vh;
+  z-index: -1; /* Asegúrate de que esté detrás de los otros elementos */
+  pointer-events: none; /* Para evitar que interfiera con los eventos del ratón en los elementos superiores */
+  /* Estilos adicionales si los necesitas */
+}

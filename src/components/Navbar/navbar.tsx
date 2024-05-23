@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import dynamic from "next/dynamic";
+import "./style.css";
 
 /* eslint-disable */
 export function Navbar() {

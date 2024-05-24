@@ -2,13 +2,17 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import "./style.css";
+import "@/app/globals.css";
 
 /* eslint-disable */
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
   };
 
   return (
@@ -29,7 +33,7 @@ export function Navbar() {
             </svg>
           </button>
         </div>
-        <div className="hidden w-full navbar-menu lg:order-1 lg:block lg:w-2/5">
+        <div className={`hidden w-full lg:order-1 lg:block lg:w-2/5`}>
           <Link href="/routes/about" className="block mt-4 mr-10 text-neutral-300 lg:inline-block lg:mt-0 hover:text-indigo-300 font-roboto-condensed font-bold">
             QUIENES SOMOS
           </Link>
@@ -37,7 +41,7 @@ export function Navbar() {
             GALERIA
           </Link>
         </div>
-        <div className="hidden w-full navbar-menu lg:order-3 lg:block lg:w-2/5 lg:text-right">
+        <div className={`hidden w-full lg:order-3 lg:block lg:w-2/5 lg:text-right`}>
           <Link href="/routes/sponsor" className="block mt-4 mr-10 text-neutral-300 lg:inline-block lg:mt-0 hover:text-indigo-300 font-roboto-condensed font-bold">
             SPONSORS
           </Link>
@@ -46,16 +50,13 @@ export function Navbar() {
           </Link>
         </div>
 
-        {isMenuOpen && (
-          <div className="w-full lg:hidden mt-4 text-center transition-all ease-in 3">
-            <Link href="/routes/about" className="block mt-4 text-neutral-300 hover:text-indigo-300">¿Quiénes somos?</Link>
-            <Link href="/routes/galeria" className="block mt-4 text-neutral-300 hover:text-indigo-300">Galeria</Link>
-            <Link href="/routes/sponsor" className="block mt-4 text-neutral-300 hover:text-indigo-300">Sponsors</Link>
-            <Link href="/routes/contact" className="block mt-4 text-neutral-300 hover:text-indigo-300">Contacto</Link>
-          </div>
-        )} 
+        <div className={`w-full lg:hidden mt-4 text-center ${isMenuOpen ? 'navbar-menu open' : 'navbar-menu'}`}>
+          <Link href="/routes/about" className="block mt-4 text-neutral-300 hover:text-indigo-300" onClick={closeMenu}>¿Quiénes somos?</Link>
+          <Link href="/routes/galeria" className="block mt-4 text-neutral-300 hover:text-indigo-300" onClick={closeMenu}>Galeria</Link>
+          <Link href="/routes/sponsor" className="block mt-4 text-neutral-300 hover:text-indigo-300" onClick={closeMenu}>Sponsors</Link>
+          <Link href="/routes/contact" className="block mt-4 text-neutral-300 hover:text-indigo-300" onClick={closeMenu}>Contacto</Link>
+        </div>
       </div>
     </nav>
   );
 }
-

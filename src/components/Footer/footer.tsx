@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import '@/app/globals.css';
 
 export function Footer() {
   return (
@@ -10,7 +11,9 @@ export function Footer() {
         <div className="max-w-screen-xl px-4 pt-8 mx-auto sm:px-6 lg:px-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <div className="flex justify-center text-teal-300 sm:justify-start">
-              <Image src="/Logo/vibrasf.png" width="80" height="40" alt="Vibra" />
+              <Link href= "/">
+                <Image src="/Logo/vibrasf.png" width="80" height="40" alt="Vibra" className='vibra' />
+              </Link>
             </div>
             
             <p className="mt-4 text-l text-center text-gray-400 lg:text-right lg:mt-0">

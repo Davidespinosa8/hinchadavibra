@@ -71,56 +71,50 @@ export function Gallery() {
       <fieldset id="gallery" className="hub text-center py-10">
         <div>
           <input type="radio" id="image-1" name="gallery" value="image-1" defaultChecked />
-          <img src="/galeria/1.png" alt="Isa1" loading='lazy'/>
-          <label htmlFor="image-1">Isa</label>
+          <img src="/galeria/2.png" alt="Ele1" loading='lazy' />
+          <label htmlFor="image-1">Ele</label>
         </div>
 
         <div>
           <input type="radio" id="image-2" name="gallery" value="image-2" />
-          <img src="/galeria/2.png" alt="Ele2" loading='lazy' />
-          <label htmlFor="image-2">Ele</label>
+          <img src="/galeria/3.png" alt="Juana2" loading='lazy' />
+          <label htmlFor="image-2">Juana</label>
         </div>
 
         <div>
           <input type="radio" id="image-3" name="gallery" value="image-3" />
-          <img src="/galeria/3.png" alt="Juana3" loading='lazy'/>
-          <label htmlFor="image-3">Juana</label>
+          <img src="/galeria/4.png" alt="Oli3" loading='lazy' />
+          <label htmlFor="image-3">Oli</label>
         </div>
 
         <div>
           <input type="radio" id="image-4" name="gallery" value="image-4" />
-          <img src="/galeria/4.png" alt="Oli" loading='lazy'/>
-          <label htmlFor="image-4">Oli</label>
+          <img src="/galeria/5.png" alt="Luli4" loading='lazy' />
+          <label htmlFor="image-4">Luli</label>
         </div>
 
         <div>
           <input type="radio" id="image-5" name="gallery" value="image-5" />
-          <img src="/galeria/5.png" alt="Luli" loading='lazy'/>
-          <label htmlFor="image-5">Luli5</label>
+          <img src="/galeria/6.png" alt="Laia5" loading='lazy' />
+          <label htmlFor="image-5">Laia</label>
         </div>
 
         <div>
           <input type="radio" id="image-6" name="gallery" value="image-6" />
-          <img src="/galeria/6.png" alt="Laia6" loading='lazy'/>
-          <label htmlFor="image-6">Laia</label>
+          <img src="/galeria/7.png" alt="Emi6" />
+          <label htmlFor="image-6">Emi</label>
         </div>
 
         <div>
           <input type="radio" id="image-7" name="gallery" value="image-7" />
-          <img src="/galeria/7.png" alt="Emi7" />
-          <label htmlFor="image-7">Emi</label>
+          <img src="/galeria/8.png" alt="Guada7" />
+          <label htmlFor="image-7">Guada</label>
         </div>
 
         <div>
           <input type="radio" id="image-8" name="gallery" value="image-8" />
-          <img src="/galeria/8.png" alt="Guada8" />
-          <label htmlFor="image-8">Guada</label>
-        </div>
-
-        <div>
-          <input type="radio" id="image-9" name="gallery" value="image-9" />
-          <img src="/galeria/9.png" alt="Anna9" />
-          <label htmlFor="image-9">Anna</label>
+          <img src="/galeria/8.png" alt="Anna8" />
+          <label htmlFor="image-8">Anna</label>
         </div>
       </fieldset>
     </div>

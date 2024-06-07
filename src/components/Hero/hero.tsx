@@ -11,7 +11,6 @@ const imageMapping: { [key: string]: string } = {
   "Emi.png": "/hero/Emi.png",
   "Laia.png": "/hero/Laia.png",
   "Juana.png": "/hero/Juana.png",
-  "Isa.png": "/hero/Isa.png",
   "Anna.png": "/hero/Ana.png",
 };
 

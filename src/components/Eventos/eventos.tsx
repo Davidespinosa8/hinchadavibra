@@ -14,7 +14,7 @@ export function Eventos(){
               <h2 className="relative mb-3 text-xl font-bold leading-tight text-white"><a href="#_">Venta de tallarines</a></h2>
               <p className="text-sm text-white opacity-70">Se realizo Una venta de tallarines con la colaboracion de toda la gente de nuestra querida ciudad, contando con el apoyo de cada una de nuestras familias</p>
               <span className="relative flex mt-3 text-xs text-white opacity-90">
-                <span className="mr-1 font-semibold">Realizada en cede vibra</span>·<span className="ml-1">Marzo, 2024</span>
+                <span className="mr-1 font-semibold">Realizada en sede vibra</span>·<span className="ml-1">Marzo, 2024</span>
               </span>
             </div>
           </div>
@@ -52,7 +52,7 @@ export function Eventos(){
               <h2 className="relative mb-3 text-xl font-bold leading-tight text-white"><a href="#_">Bingo</a></h2>          
               <p className="text-sm text-white opacity-50">Nuestro último evento un bingo familiar, en donde disfrutamos de una hermosa tarde acompañadas de todos los participantes.</p>          
               <span className="relative flex mt-3 text-xs text-white opacity-90">          
-                <span className="mr-1 font-semibold">Cede Club San Martin</span>·<span className="ml-1">Mayo, 2024</span>              
+                <span className="mr-1 font-semibold">Sede Club San Martin</span>·<span className="ml-1">Mayo, 2024</span>              
               </span>          
             </div>        
           </div>                

@@ -9,6 +9,9 @@ export default function Sponsor() {
       <div className="w-full flex justify-center">
         <img width="80%" src="/sponsors/doris/doris.gif" className="mb-10" alt="Sponsor GIF"/>
       </div>
+      <div className="w-full flex justify-center">
+        <img width="80%" src="/sponsors/LaMatera/COLEGIAL.gif" className="mb-10" alt="Sponsor GIF 2"/>
+      </div>
       <div className="container py-40 text-center">
         <p className="text-xl font-Mulish text-blue-400">Esta pagina esta administrada por la comisión de padres <q>Hinchada oficial de Vibra</q> queremos invitar a las empresas que gusten participar de este maravilloso sueño. Quienes gusten pueden comunicarse por los medios aportados en nuestro contacto agradecemos su tiempo</p>
       </div>

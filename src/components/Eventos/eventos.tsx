@@ -55,7 +55,19 @@ export function Eventos(){
                 <span className="mr-1 font-semibold">Sede Club San Martin</span>·<span className="ml-1">Mayo, 2024</span>              
               </span>          
             </div>        
-          </div>                
+          </div>
+          <div className="flex items-center py-5 border-b border-sky-500">      
+            <a className="w-1/3 h-40 overflow-hidden">        
+              <img className="w-full h-auto transition duration-300 ease-out transform scale-100 bg-cover hover:scale-105" src="/eventos/pastelitos1.jpg" />          
+            </a>        
+            <div className="w-2/3 pl-5">        
+              <h2 className="relative mb-3 text-xl font-bold leading-tight text-white"><a href="#_">Pastelitos</a></h2>          
+              <p className="text-sm text-white opacity-50">Para el 25 de Mayo como la fecha lo pide hicimos pastelitos de Batata y membrillo, siendo un rotundo éxito. El trabajo y la colaboración se hicieron notar.</p>          
+              <span className="relative flex mt-3 text-xs text-white opacity-90">          
+                <span className="mr-1 font-semibold">Sede Casa de Day</span>·<span className="ml-1">Mayo, 2024</span>              
+              </span>          
+            </div>        
+          </div>                  
         </div>
       </div>
   )

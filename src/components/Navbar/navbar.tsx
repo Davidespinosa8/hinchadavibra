@@ -33,28 +33,28 @@ export function Navbar() {
             </svg>
           </button>
         </div>
-        <div className={`hidden w-full lg:order-1 lg:block lg:w-2/5`}>
-          <Link href="/routes/about" className="block mt-4 mr-10 text-neutral-300 lg:inline-block lg:mt-0 hover:text-indigo-300 font-roboto-condensed font-bold">
+        <div className={`hidden w-full lg:order-1 lg:block lg:w-2/5 text-center`}>
+          <Link href="/routes/about" className="block mt-4 mr-10 text-neutral-300 lg:inline-block lg:mt-0 hover:text-sky-500 font-roboto-condensed font-bold">
             QUIENES SOMOS
           </Link>
-          <Link href="/routes/galeria" className="block mt-4 mr-10 text-neutral-300 lg:inline-block lg:mt-0 hover:text-indigo-300 font-roboto-condensed font-bold">
+          <Link href="/routes/galeria" className="block mt-4 mr-10 text-neutral-300 lg:inline-block lg:mt-0 hover:text-sky-500 font-roboto-condensed font-bold">
             GALERIA
           </Link>
         </div>
-        <div className={`hidden w-full lg:order-3 lg:block lg:w-2/5 lg:text-right`}>
-          <Link href="/routes/sponsor" className="block mt-4 mr-10 text-neutral-300 lg:inline-block lg:mt-0 hover:text-indigo-300 font-roboto-condensed font-bold">
+        <div className={`hidden w-full lg:order-3 lg:block lg:w-2/5 text-center`}>
+          <Link href="/routes/sponsor" className="block mt-4 mr-10 text-neutral-300 lg:inline-block lg:mt-0 hover:text-sky-500 font-roboto-condensed font-bold">
             SPONSORS
           </Link>
-          <Link href="/routes/contact" className="block mt-4 mr-10 text-neutral-300 lg:inline-block lg:mt-0 hover:text-indigo-300 font-roboto-condensed font-bold">
+          <Link href="/routes/contact" className="block mt-4 mr-10 text-neutral-300 lg:inline-block lg:mt-0 hover:text-sky-500 roboto-condensed font-bold">
             CONTACTO
           </Link>
         </div>
 
         <div className={`w-full lg:hidden mt-4 text-center ${isMenuOpen ? 'navbar-menu open' : 'navbar-menu'}`}>
-          <Link href="/routes/about" className="block mt-4 text-neutral-300 hover:text-indigo-300" onClick={closeMenu}>¿Quiénes somos?</Link>
-          <Link href="/routes/galeria" className="block mt-4 text-neutral-300 hover:text-indigo-300" onClick={closeMenu}>Galeria</Link>
-          <Link href="/routes/sponsor" className="block mt-4 text-neutral-300 hover:text-indigo-300" onClick={closeMenu}>Sponsors</Link>
-          <Link href="/routes/contact" className="block mt-4 text-neutral-300 hover:text-indigo-300" onClick={closeMenu}>Contacto</Link>
+          <Link href="/routes/about" className="block mt-4 text-neutral-300 hover:text-sky-500" onClick={closeMenu}>¿QUIENES SOMOS?</Link>
+          <Link href="/routes/galeria" className="block mt-4 text-neutral-300 hover:text-sky-500" onClick={closeMenu}>GALERIA</Link>
+          <Link href="/routes/sponsor" className="block mt-4 text-neutral-300 hover:text-sky-500" onClick={closeMenu}>SPONSORS</Link>
+          <Link href="/routes/contact" className="block mt-4 text-neutral-300 hover:text-sky-500" onClick={closeMenu}>CONTACTO</Link>
         </div>
       </div>
     </nav>

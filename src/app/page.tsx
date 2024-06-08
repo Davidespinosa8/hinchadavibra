@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import About from "@/app/routes/about/page";
 

@@ -1,9 +1,13 @@
 import Contacto from "@/components/Contacto/contacto";
+import ClientOnlyMotion from "@/components/Transition/ClientOnlyMotion";
 
 export default function Contact() {
   
   return (
-    <div>
-      <Contacto />
-    </div>)
+    <ClientOnlyMotion>
+      <div>
+        <Contacto />
+      </div>
+    </ClientOnlyMotion>
+  )
 }

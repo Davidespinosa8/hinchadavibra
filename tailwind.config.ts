@@ -19,7 +19,8 @@ const config: Config = {
         'handlee':['handlee'],
         'AliviaRegular': ['AliviaRegular'],
         'Exo': ['Exo'],
-        'Mulish':['Mulish']
+        'Mulish': ['Mulish'],
+        'Changa': ['Changa'],
       }
     },
   },

@@ -9,7 +9,7 @@ export function Buttons() {
           <div className="px-6">
             <Link href="https://mpago.la/2boa9FF ">
               <button className="w-full relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400">
-                <span className="relative px-10 py-5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-3xl md:text-5xl text-center w-full">
+                <span className="relative px-10 py-5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0 text-3xl md:text-5xl text-center w-full text-white">
                   $500
                 </span>
               </button>
@@ -17,8 +17,8 @@ export function Buttons() {
           </div>
           <div className="px-6">
             <Link href="https://mpago.la/2Y22R3j">
-              <button className="w-full relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400">
-                <span className="relative px-10 py-5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-3xl md:text-5xl w-full">
+              <button className="w-full relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400">
+                <span className="relative px-10 py-5 transition-all ease-in duration-7 bg-gray-900 rounded-md group-hover:bg-opacity-0 text-3xl md:text-5xl w-full text-white">
                   $1000
                 </span>
               </button>
@@ -27,7 +27,7 @@ export function Buttons() {
           <div className="px-6">
             <Link href="https://mpago.la/1dQpGCj">
               <button className="w-full relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400">
-                <span className="w-full relative px-10 py-5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-3xl md:text-5xl">
+                <span className="w-full relative px-10 py-5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0 text-3xl md:text-5xl text-white">
                   $2000
                 </span>
               </button>
@@ -36,7 +36,7 @@ export function Buttons() {
           <div className="px-6">
             <Link href="https://mpago.la/1dQpGCj">
               <button className="w-full relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400">
-                <span className="w-full relative px-10 py-5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-3xl md:text-5xl">
+                <span className="w-full relative px-10 py-5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0 text-3xl md:text-5xl text-white">
                   $5000
                 </span>
               </button>
@@ -45,9 +45,9 @@ export function Buttons() {
           <div className="col-span-1 md:col-span-2 px-5">
             <Link href="https://mpago.la/2xxzFqb ">
               <button className="w-full relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400">
-                <span className="w-full relative px-10 py-5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-3xl md:text-5xl">
-                    $10000
-                  </span>
+                <span className="w-full relative px-10 py-5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0 text-3xl md:text-5xl text-white">
+                  $10000
+                </span>
                 </button>
               </Link>
           </div>

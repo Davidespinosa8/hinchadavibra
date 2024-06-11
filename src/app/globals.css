@@ -34,6 +34,10 @@
   src: url(/fonts/Changa.ttf);
 }
 
+@font-face {
+  font-family: 'AliviaRegular';
+  src: url(/fonts/AliviaRegular.ttf);
+}
 :root{
   
   --dark-color: #1e2220;

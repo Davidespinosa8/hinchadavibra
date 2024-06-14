@@ -31,7 +31,7 @@ export default function Sponsor() {
         <img width="65%" src="/sponsors/placerurbano/Placerurbano.gif" className="mb-10" alt="Sponsor GIF 8"/>
       </div>
       <div className="w-full flex justify-center">
-        <img width="80%" src="/sponsors/alcon/alcon.gif" className="mb-10" alt="Sponsor GIF 9"/>
+        <img width="80%" src="/sponsors/alcon/Alcon.gif" className="mb-10" alt="Sponsor GIF 9"/>
       </div>
       <div className="w-full flex justify-center">
         <img width="80%" src="/sponsors/marinamartoreli/marinamartorelli.gif" className="mb-10" alt="Sponsor GIF 10"/>

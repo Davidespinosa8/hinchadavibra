@@ -7,22 +7,22 @@ export default function Sponsor() {
         <p className="text-2xl font-Mulish text-sky-400">Las empresas e instituciones que nos eligieron para acompañarnos en este sueño:</p>
       </div>
       {[
-        "/doris/doris.mp4",
-        "/LaMatera/COLEGIAL.mp4",
-        "/belomely/belomely.mp4",
-        "/grupotesta/Grupotesta.mp4",
-        "/gentilucci/Gentilucci.mp4",
-        "/lafacu/LaFacu.mp4",
-        "/polark/PolarK.mp4",
-        "/placerurbano/Placerurbano.mp4",
-        "/alcon/alcon.mp4",
-        "/marinamartoreli/marinamartorelli.mp4",
-        "/midebilidad/Midebilidad.mp4",
-        "/lavie/Lavie.mp4",
-        "/chilapets/Chilapets.mp4",
-        "/upack/Upack.mp4",
-        "/molar/Molar.mp4",
-        "/vetelinda/Vetelinda.mp4"
+        "/doris/Doris.webm",
+        "/LaMatera/COLEGIAL.webm",
+        "/belomely/Belomely.webm",
+        "/grupotesta/Testa.webm",
+        "/gentilucci/Gentilucci.webm",
+        "/lafacu/LaFacu.webm",
+        "/polark/PolarK.webm",
+        "/placerurbano/PlacerUrbano.webm",
+        "/alcon/Alcon.webm",
+        "/marinamartoreli/marinamartorelli.webm",
+        "/midebilidad/Midebilidad.webm",
+        "/lavie/Lavie.webm",
+        "/chilapets/Chilapets.webm",
+        "/upack/Upack.webm",
+        "/molar/Molar.webm",
+        "/vetelinda/Vetelinda.webm"
       ].map((src, index) => (
         <div key={index} className="w-full flex justify-center">
           <video

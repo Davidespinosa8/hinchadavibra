@@ -30,7 +30,7 @@ export function Hero() {
   return (
     <div className="section pb-10">
       <div className="main-image-container">
-        <img src={mainImage} alt="Imagen principal" className="main-image pb-3 loading='lazy'" />
+        <img src={mainImage} alt="Imagen principal" className="main-image pb-3" loading='lazy' />
       </div>
       <div className="main-image-name text-center font-AliviaRegular text-3xl text-sky-400 font-bold">{mainImageName}</div>
       <div className="container">

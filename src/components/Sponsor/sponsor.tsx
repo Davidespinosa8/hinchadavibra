@@ -13,7 +13,7 @@ export default function Sponsor() {
         "/grupotesta/Testa.webm",
         "/gentilucci/Gentilucci.webm",
         "/lafacu/LaFacu.webm",
-        "/polark/PolarK.webm",
+        "/polark/Polark.webm",
         "/placerurbano/PlacerUrbano.webm",
         "/alcon/Alcon.webm",
         "/marinamartoreli/marinamartorelli.webm",

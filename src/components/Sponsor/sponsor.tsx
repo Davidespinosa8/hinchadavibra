@@ -7,32 +7,37 @@ export default function Sponsor() {
         <p className="text-2xl font-Mulish text-sky-400">Las empresas e instituciones que nos eligieron para acompañarnos en este sueño:</p>
       </div>
       {[
-        "/doris/Doris.webm",
-        "/LaMatera/COLEGIAL.webm",
-        "/belomely/Belomely.webm",
-        "/grupotesta/Testa.webm",
-        "/gentilucci/Gentilucci.webm",
-        "/lafacu/LaFacu.webm",
-        "/polark/Polark.webm",
-        "/placerurbano/PlacerUrbano.webm",
-        "/alcon/Alcon.webm",
-        "/marinamartoreli/marinamartorelli.webm",
-        "/midebilidad/Midebilidad.webm",
-        "/lavie/Lavie.webm",
-        "/chilapets/Chilapets.webm",
-        "/upack/Upack.webm",
-        "/molar/Molar.webm",
-        "/vetelinda/Vetelinda.webm"
+        "/BannerDorys.webp",
+        "/BannerLaMatera.webp",
+        "/BannerBelomely.webp",
+        "/BannerGrupoTesta.webp",
+        "/BannerGentilucci.webp",
+        "/BannerLaFacu.webp",
+        "/BannerPolark.webp",
+        "/BannerPlacerUrbano.webp",
+        "/BannerAlcon.webp",
+        "/BannerMarinaMartorelli.webp",
+        "/BannerMiDebilidadTuLenceria.webp",
+        "/BannerLaVie.webp",
+        "/BannerChilapets.webp",
+        "/BannerUpack.webp",
+        "/BannerMolar.webp",
+        "/BannerVetelinda.webp",
+        "/BannerAlciati.webp",
+        "/BannerLabaguette.webp",
+        "/BannerDisalfri.webp",
+        "/BannerLaSoñada.webp",
+        "/BannerLabaguette.webp",
+        "/bannerCreatore.webp",
       ].map((src, index) => (
         <div key={index} className="w-full flex justify-center">
-          <video
-            width={src.includes("placerurbano")|| src.includes("midebilidad") ? "60%" : "80%" }
+          <img
+            width={src.includes("BannerPlacerUrbano") ? "60%" :
+              src.includes("BannerMiDebilidadTuLenceria") ? "60%" :
+              src.includes("BannerLaSoñada") ? "60%" :
+              src.includes("bannerCreatore.png") ? "30%" : "80%"}
             src={`/sponsors/${src}`}
             className="mb-10"
-            autoPlay
-            loop
-            muted
-            playsInline
           />
         </div>
       ))}

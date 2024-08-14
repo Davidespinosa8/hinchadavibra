@@ -13,7 +13,7 @@ export default function Sponsor() {
         "/BannerGrupoTesta.webp",
         "/BannerGentilucci.webp",
         "/BannerLaFacu.webp",
-        "/BannerPolark.webp",
+        "/BannerPolarK.webp",
         "/BannerPlacerUrbano.webp",
         "/BannerAlcon.webp",
         "/BannerMarinaMartorelli.webp",
@@ -35,7 +35,7 @@ export default function Sponsor() {
             width={src.includes("BannerPlacerUrbano") ? "60%" :
               src.includes("BannerMiDebilidadTuLenceria") ? "60%" :
               src.includes("BannerLaSoñada") ? "60%" :
-              src.includes("bannerCreatore.png") ? "30%" : "80%"}
+              src.includes("bannerCreatore") ? "30%" : "80%"}
             src={`/sponsors/${src}`}
             className="mb-10"
           />

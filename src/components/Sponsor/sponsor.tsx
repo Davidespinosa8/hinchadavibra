@@ -14,7 +14,7 @@ export default function Sponsor() {
         "/BannerGentilucci.webp",
         "/BannerLaFacu.webp",
         "/BannerPolarK.webp",
-        "/BannerPlacerUrbano.webp",
+        "/BannerplacerUrbano.webp",
         "/BannerAlcon.webp",
         "/BannerMarinaMartorelli.webp",
         "/BannerMiDebilidadTuLenceria.webp",

@@ -14,7 +14,7 @@ export default function Sponsor() {
         "/BannerGentilucci.webp",
         "/BannerLaFacu.webp",
         "/BannerPolarK.webp",
-        "/BannerPlacerUrbano.webp",
+        "/BannerplacerUrbano.webp",
         "/BannerAlcon.webp",
         "/BannerMarinaMartorelli.webp",
         "/BannerMiDebilidadTuLenceria.webp",
@@ -27,7 +27,6 @@ export default function Sponsor() {
         "/BannerLabaguette.webp",
         "/BannerDisalfri.webp",
         "/BannerLaSoñada.webp",
-        "/BannerLabaguette.webp",
         "/bannerCreatore.webp",
       ].map((src, index) => (
         <div key={index} className="w-full flex justify-center">
